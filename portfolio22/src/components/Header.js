@@ -1,13 +1,12 @@
 import React from "react";
 
 import { useState } from "react";
-import menu from "../assets/statics/menu.svg";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
-  const [isOpen, setOpen] = useState(false);
   return (
     <div>
-      <img src={menu} alt="" className="menu-icon" />
+      <MenuIcon sx={{ fontSize: 70, m: 1 }} />
     </div>
   );
 }

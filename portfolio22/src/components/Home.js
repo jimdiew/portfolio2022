@@ -7,7 +7,7 @@ import { makeStyles } from "@mui/styles";
 export default function Home() {
   return (
     <Container>
-      <Box>
+      <Box sx={{ color: "primary.main" }}>
         <Typography variant="h1" color="initial" align="center">
           Hi!
         </Typography>
@@ -15,8 +15,6 @@ export default function Home() {
           {" "}
           I'm a front end developer
         </Typography>
-        <h1 className="play-font">Hi!</h1>
-        <p>I'm a front end developer</p>
       </Box>
     </Container>
   );

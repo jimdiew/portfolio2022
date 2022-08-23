@@ -1,6 +1,7 @@
 import "../../assets/css/App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../Home";
+import Overlay from "../Overlay";
 import Education from "../Education";
 import Contact from "../Contact";
 import Layout from "../Layout";

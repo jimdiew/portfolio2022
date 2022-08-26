@@ -17,10 +17,10 @@ export default function Home() {
     >
       <Container>
         <Grid sx={{ paddingTop: "20%", paddingBottom: "25%" }}>
-          <Typography variant="h1" color="primary.secondary" align="center">
+          <Typography className="play-font" variant="h1" color="primary.secondary" align="center">
             Hi!
           </Typography>
-          <Typography variant="h2" color="main" align="center">
+          <Typography variant="h3" color="main" align="center">
             {" "}
             I'm a front end developer
           </Typography>

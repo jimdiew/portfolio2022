@@ -29,3 +29,25 @@ code {
   font-family: "Playfair Display", serif;
   font-style: italic;
 }
+
+/*Education component*/
+.education-container{
+  background-color: #00F5D4;
+  color: #fff;
+}
+
+.paragraph{
+  color: #676767;
+  font-size: 18px;
+}
+
+/*Contact component*/
+
+.contact-container{
+  background-color: #FEE440;
+  color: #636363;
+}
+
+.button{
+  background-color: #FEE440 ;
+}

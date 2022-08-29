@@ -1,10 +1,24 @@
 import React from "react";
 import Container from "@mui/material/Container";
-import { Grid, Typography } from "@mui/material";
+import { Grid, makeStyles, Typography } from "@mui/material";
 import BlobEducation from "../assets/statics/blob-education.svg";
+import Header from "../components/Header";
 
-export default function Education() {
+interface EducationProps {
+
+}
+
+const useStyles = makeStyles((theme) => ({
+  educationContainer: {
+    backgroundColor: '#fff'
+  },
+}));
+const Education = (props: EducationProps) => {
+  const {} = props
+  const classes = useStyles(props);
   return (
+    <>
+    <Header isEducation={true}/>
     <div
     style={{
       backgroundImage: `url(${BlobEducation})`,
@@ -13,7 +27,7 @@ export default function Education() {
       backgroundPosition: "50% 50%",
     }}
   >
-    <Container  mt={2} className="education-container">
+    <Container  mt={2} className={classes.educationContainer}>
       <Grid sx={{ paddingTop: "10%", paddingBottom: "10%" }}>
         <Typography variant="h2" className="play-font">
           Education
@@ -31,5 +45,7 @@ export default function Education() {
       </Grid>
     </Container>
     </div>
+    </>
   );
 }
+export default Education

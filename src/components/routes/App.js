@@ -1,8 +1,8 @@
 import "../../assets/css/App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../Home";
+import Home from "../Home.tsx";
 import Overlay from "../Overlay";
-import Education from "../Education";
+import Education from "../Education.tsx";
 import Contact from "../Contact";
 import Layout from "../Layout";
 import { ThemeProvider } from "@mui/material";

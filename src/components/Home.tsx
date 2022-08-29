@@ -1,12 +1,27 @@
 import React from "react";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import { makeStyles } from '@mui/styles';
 import "../assets/css/index.css";
 import BlobHome from "../assets/statics/blob-home.svg";
+import Header from "../components/Header.tsx";
 
-export default function Home() {
+interface HomeProps {
+  isHome?: any,
+}
+
+const useStyles = makeStyles((theme) => ({
+  homeContainer: {
+    backgroundColor: '#00F5D4'
+  },
+}));
+
+const Home = (props: HomeProps) => {
+  const {isHome} = props
+  const classes = useStyles(props);
+
   return (
+    <div className={classes.homeContainer}>
+    <Header />
     <div
       style={{
         backgroundImage: `url(${BlobHome})`,
@@ -14,8 +29,9 @@ export default function Home() {
         backgroundSize: "contain",
         backgroundPosition: "50% 50%",
       }}
+      className={classes.homeContainer}
     >
-      <Container>
+      <Grid>
         <Grid sx={{ paddingTop: "20%", paddingBottom: "25%" }}>
           <Typography className="play-font" variant="h1" color="primary.secondary" align="center">
             Hi!
@@ -25,7 +41,9 @@ export default function Home() {
             I'm a front end developer
           </Typography>
         </Grid>
-      </Container>
+      </Grid>
+    </div>
     </div>
   );
 }
+export default Home

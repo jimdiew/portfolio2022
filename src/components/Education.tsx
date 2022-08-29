@@ -1,25 +1,27 @@
 import React from "react";
-import Container from "@mui/material/Container";
-import { Grid, makeStyles, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import { makeStyles } from '@mui/styles';
 import BlobEducation from "../assets/statics/blob-education.svg";
-import Header from "../components/Header";
+import Header from "../components/Header.tsx";
 
 interface EducationProps {
-
+  isEducation?: any,
 }
 
 const useStyles = makeStyles((theme) => ({
   educationContainer: {
-    backgroundColor: '#fff'
+    backgroundColor: '#00F5D4'
   },
 }));
 const Education = (props: EducationProps) => {
-  const {} = props
+  const {isEducation} = props
   const classes = useStyles(props);
+  
   return (
-    <>
+    <div   className={classes.educationContainer}>
     <Header isEducation={true}/>
     <div
+  
     style={{
       backgroundImage: `url(${BlobEducation})`,
       backgroundRepeat: "no-repeat",
@@ -27,7 +29,7 @@ const Education = (props: EducationProps) => {
       backgroundPosition: "50% 50%",
     }}
   >
-    <Container  mt={2} className={classes.educationContainer}>
+    <Grid mt={2} >
       <Grid sx={{ paddingTop: "10%", paddingBottom: "10%" }}>
         <Typography variant="h2" className="play-font">
           Education
@@ -43,9 +45,9 @@ const Education = (props: EducationProps) => {
           <em>Not completed</em>
         </Typography>
       </Grid>
-    </Container>
+    </Grid>
     </div>
-    </>
+    </div>
   );
 }
 export default Education

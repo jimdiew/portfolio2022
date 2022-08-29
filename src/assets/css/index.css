@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f15bb5;
   color: #fff;
 }
 
@@ -18,7 +17,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/*Home component*/
 
+.home-container{
+  background-color: #f15bb5;
+  color: #fff
+}
 /* Header component */
 .menu-icon {
   margin-top: 25px;
@@ -31,7 +35,7 @@ code {
 }
 
 /*Education component*/
-.education-container{
+.educationContainer{
   background-color: #00F5D4;
   color: #fff;
 }

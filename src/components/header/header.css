@@ -1,7 +1,7 @@
 header{
     height: 100vh;
     padding-top: 7rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header__container{
@@ -74,5 +74,19 @@ header{
      }
      .header__socials, .scroll__down{
         display: none;
+     }
+
+     .me{
+        width: 15rem;
+        height: 17rem;
+        position: absolute;
+        left: calc(50% - (15rem/2));
+        margin-top: 3rem;
+        border-radius: 45% 45% 0 0;
+        padding-top: 1.5rem;
+     }
+
+     header{
+        height: 110vh;
      }
 }

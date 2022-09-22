@@ -1,7 +1,7 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
-    /* overflow: hidden; */
+    padding-top: 5rem;
+    overflow: hidden;
 }
 
 .header__container{
@@ -46,6 +46,7 @@ header{
     margin-top: 4rem;
     border-radius: 45% 45% 0 0;
     padding-top: 1.5rem;
+    
 }
 
 /*SCROLL DOWN */
@@ -61,16 +62,25 @@ header{
 
 /* MEDIA QUERIES (MEDIUM) */ 
 @media screen and (max-width: 1024px) {
-.header{
-   height: 68vh;
+
+header{
+    padding-top: 3rem;
+    overflow: visible;
 }
+
+.me{
+    width: 16rem;
+    height: 18rem;
+    left: calc(50% - 7.5rem);
+    
+} 
 
 }
 
 /* MEDIA QUERIES (SMALL) */ 
 @media screen and (max-width: 600px) {
     .header{
-        height: 100vh;
+        height: 50vh;
      }
      .header__socials, .scroll__down{
         display: none;
@@ -87,6 +97,7 @@ header{
      }
 
      header{
-        height: 110vh;
-     }
+        height: 100vh;
+        overflow: visible;
+    }
 }

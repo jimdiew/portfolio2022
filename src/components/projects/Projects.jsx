@@ -24,10 +24,6 @@ const Projects = () => {
         <div className="projects__item-image">
           <img src={IMG2} alt="Dino Google Game Landing Page" />
         </div>
-        <h3>Ayiverse Landing Page</h3>
-        <div className="projects__item-cta">
-        <a href="https://www.ayiverse.com" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </div>
       </article>
       <article className='projects__item'>
         <div className="projects__item-image">

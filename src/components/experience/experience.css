@@ -6,6 +6,7 @@
 
 .experience__container > div {
     background: var(--background);
+    color: var(--text-dark);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,7 +14,7 @@
 
 .experience__container > div:hover {
     background: var(--translucid);
-    color: var(--pink);
+    color: var(--text-pink);
     border: 1px solid var(--pink);
     cursor: default;
     transition: var(--transition);  
@@ -22,7 +23,7 @@
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--pink);
+    color: var(--text-pink);
 }
 
 .experience__content {
@@ -40,7 +41,7 @@
 
 .experience__details-icon{
     margin-top: 6px;
-    color: var(--pink);
+    color: var(--text-pink);
 }
 
 /* MEDIA QUERIES (MEDIUM) */

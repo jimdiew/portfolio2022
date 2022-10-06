@@ -32,7 +32,8 @@
 }
 
 .about__card {
-  background: var(--background);
+  background: #5A2250;
+  color: #CFCFCF;
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -41,7 +42,7 @@
 
 .about__card:hover {
   background: var(--white);
-  color: var(--pink);
+  color: var(--text-pink);
   border: 1px solid var(--pink);
   transition: var(--transition);
   cursor: default;
@@ -64,6 +65,7 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 /* MEDIA QUERIES (MEDIUM) */

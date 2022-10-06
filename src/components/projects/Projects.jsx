@@ -22,12 +22,7 @@ const Projects = () => {
       </article>
       <article className='projects__item'>
         <div className="projects__item-image">
-          <img src={IMG2} alt="Dino Google Game Landing Page" />
-        </div>
-      </article>
-      <article className='projects__item'>
-        <div className="projects__item-image">
-          <img src={IMG3} alt="Dino Google Game Landing Page" />
+          <img src={IMG3} alt="Portfolio Landing Page" />
         </div>
         <h3>Portfolio Landing Page</h3>
         <div className="projects__item-cta">

@@ -34,7 +34,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repellat rerum enim pariatur quis cum aspernatur corrupti placeat quibusdam beatae! Dolorum ducimus odio aperiam aliquid magnam architecto alias distinctio! Adipisci!
+          Front end developer with experience in ReactJs, JavaScript, Bootstrap and MaterialUI. I'm in constant professional growth.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's chat</a>

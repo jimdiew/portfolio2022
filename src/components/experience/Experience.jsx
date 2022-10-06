@@ -29,7 +29,7 @@ const Experience = () => {
             < BsCheckCircle className='experience__details-icon'/> 
             <div><h4>Graphic Design</h4>
             <small>@ UADE</small>
-            <small> | Mar 2011 to Jun 2014 (<i>Abandoned</i>) </small></div>
+            <small> | Mar 2011 to Jun 2014 (<i>Not Finished</i>) </small></div>
             
           </article>
         </div>

@@ -9,10 +9,14 @@ const Footer = () => {
    <footer>
     <a href="#" className='footer__logo'>JIMDIEW</a>
     
-      <div className='footer__socials'>
-      <a href="https://www.linkedin.com/in/jimdiew/"><FaLinkedin/></a>
-      <a href="https://github.com/jimdiew"><BsGithub/></a>
-      <a href="https://www.instagram.com/watch.jim.code/"><RiInstagramFill/></a>
+      <div className='footer__sections'>
+     <ul>
+      <li><a href='#'>Home</a></li>
+      <li><a href='#about'>About</a></li>
+      <li><a href='#experience'>Experience</a></li>
+      <li><a  href='#projects'>Projects</a></li>
+      <li><a  href='#contact'>Contact</a></li>
+     </ul>
       </div>
    
 

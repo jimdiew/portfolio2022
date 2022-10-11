@@ -16,7 +16,11 @@ input, textarea {
     border: 2px solid var(--background-secondary);
     resize: none;
     color: var(--text-dark);
+    font-size: 0.9rem;
+}
 
+::placeholder{
+  color: var(--text-secondary);
 }
 
 /* MEDIA QUERIES (MEDIUM) */ 
@@ -33,4 +37,8 @@ input, textarea {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
       }
+      
+    .contact__button{
+      width: 100%;
+    }
   }

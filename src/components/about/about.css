@@ -17,12 +17,12 @@
 .about__me-image {
   padding: 2.5rem;
   overflow: hidden;
-  transform: rotate(-15deg);
+  transform: rotate(0);
   transition: var(--transition);
 }
 
 .about__me-image:hover {
-  transform: rotate(0);
+  transform: rotate(-15deg);
 }
 
 .about__cards {
@@ -35,9 +35,10 @@
   background: #5A2250;
   color: #CFCFCF;
   border: 1px solid transparent;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2rem;
   text-align: center;
+  width: 10rem;
 }
 
 .about__card:hover {
@@ -55,17 +56,19 @@
 }
 
 .about__card h5 {
-  font-size: 0.95rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .about__card small {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--text-secondary);
   font-size: 1rem;
+  font-weight: 500;
 }
 
 /* MEDIA QUERIES (MEDIUM) */

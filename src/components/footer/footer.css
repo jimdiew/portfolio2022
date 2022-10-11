@@ -17,25 +17,22 @@ footer a {
     display: inline-block;
 }
 
-.footer__socials{
-    display: flex;
-    justify-content: center;
+.footer__sections{
+   
     gap: 1rem;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
 }
 
-.footer__socials a {
-    background: var(--pink);
-    color: var(--white);
-    padding: 0.6rem;
-    border-radius: 50%;
-    display: flex;
+.footer__sections a {
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: var(--text-pink);
     border: 1px solid transparent;
 }
 
-.footer__socials a:hover{
-    background: var(--background-secondary);
+.footer__sections a:hover{
     color: var(--white);
     border: 1px solid transparent;
 }

@@ -29,16 +29,17 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.5rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 1.4rem;
 }
 
 .header__socials::after{
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 3.5rem;
     background-color: var(--pink);
 }
 
@@ -61,8 +62,9 @@ header{
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 200;
-    font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--pink);
 
 }
 

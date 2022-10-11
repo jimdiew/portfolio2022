@@ -16,6 +16,7 @@ transition: var(--transition);
 .projects__item:hover{
     background: var(--translucid);
     border-color: var(--pink);
+    color: var(--text-pink)
 }
 
 .projects__item-image{

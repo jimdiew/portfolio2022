@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css'
 import emailjs from '@emailjs/browser';
 
+
 const Contact = () => {
   const form =  useRef();
 
@@ -18,6 +19,7 @@ const Contact = () => {
       e.target.reset()
   };
   return (
+
    <section id='contact'>
     <h5>Get in touch</h5>
     <h2>Contact me</h2>
@@ -30,7 +32,8 @@ const Contact = () => {
       </form>
     </div>
    </section>
+
   )
 }
 
-export default Contact
+export default Contact;

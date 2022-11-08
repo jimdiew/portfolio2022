@@ -1,4 +1,4 @@
-nav{
+.navbar{
     background: var(--translucid) ;
     width: max-content;
     display: block;
@@ -14,7 +14,7 @@ nav{
     backdrop-filter: blur(5px);
 }
 
-nav a {
+.nav__item {
     background-color: transparent;
     padding: 0.5rem;
     border-radius: 50%;
@@ -23,11 +23,13 @@ nav a {
     font-size: 1.1rem;
 }
 
-nav a:hover{
+.nav__item:hover{
     background: rgba(232, 46, 145, 0.534);
 }
 
-nav a.active{
+.nav__item.active{
     background-color: rgba(173, 34, 233, 0.3);
     color: var(--white);
 }
+
+/* SCROLLSPY */

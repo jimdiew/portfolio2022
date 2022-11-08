@@ -4,12 +4,15 @@ import Me from '../../assets/statics/setup.png'
 import {AiOutlineSetting} from 'react-icons/ai'
 import {IoLibraryOutline} from 'react-icons/io5'
 import {BiPaint} from 'react-icons/bi'
+
+
 const About = () => {
   return (
-    <section id='about'>
+
+    <section>
       <h5>Get to know</h5>
       <h2>About me</h2>
-      <div className="container about__container">
+      <div className="container about__container" id='about'>
         <div className="about__me">
           <div className="about__me-image">
             <img src={Me} alt="Illustration of desk setup with a monitor and a plant" />
@@ -41,7 +44,9 @@ const About = () => {
         </div>
       </div>
     </section>
+
+
   )
 }
 
-export default About
+export default About;

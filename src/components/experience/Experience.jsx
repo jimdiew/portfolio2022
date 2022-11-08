@@ -2,8 +2,10 @@ import React from 'react'
 import './experience.css'
 import { BsCheckCircle } from 'react-icons/bs'
 
+
 const Experience = () => {
   return (
+
    <section id='experience'>
     <h5>Education and Work</h5>
     <h2>My Experience</h2>
@@ -62,6 +64,7 @@ const Experience = () => {
      
     </div>
    </section>
+
   )
 }
 

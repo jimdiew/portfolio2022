@@ -1,20 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './nav.css'
 import {AiFillHome, AiFillFolder, AiFillMessage} from 'react-icons/ai'
 import {BsFillPersonFill} from 'react-icons/bs'
 import {FaCoffee} from 'react-icons/fa'
-import {useState} from 'react'
+import { Link } from 'react-scroll'
+
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [click, setClick] = useState(false)
+
+  // const handleClick = () => setClick(!click)
+  const closeMenu = () => setClick(false)
   return (
-   <nav>
-    <a className={activeNav === '#' ? 'active' : '' } onClick={()=>setActiveNav('#')} href="#"><AiFillHome/></a>
-    <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active' : '' }><BsFillPersonFill/></a>
-    <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : '' }><FaCoffee/></a>
-    <a href="#projects" onClick={()=>setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : '' }><AiFillFolder/></a>
-    <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : '' }><AiFillMessage/></a>
-   </nav>
+    <nav className="navbar">
+    <Link className='nav__item' to='home' spy={true} smooth={true} offset={-50} duration={50} onClick={closeMenu}><AiFillHome/></Link>
+    <Link className='nav__item' to="about" spy={true} smooth={true} offset={-150} duration={50} onClick={closeMenu} ><BsFillPersonFill/></Link>
+    <Link className='nav__item' to="experience" spy={true} smooth={true} offset={-50} duration={50} onClick={closeMenu} ><FaCoffee/></Link>
+    <Link className='nav__item' to="projects" spy={true} smooth={true} offset={-50} duration={50} onClick={closeMenu} ><AiFillFolder/></Link>
+    <Link className='nav__item' to="contact" spy={true} smooth={true} offset={-50} duration={50} onClick={closeMenu} ><AiFillMessage/></Link>
+    </nav>
   )
 }
 

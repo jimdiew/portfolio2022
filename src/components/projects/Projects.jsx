@@ -1,11 +1,12 @@
 import React from 'react'
 import './projects.css'
 import IMG1 from '../../assets/statics/dinogame.png'
-import IMG2 from '../../assets/statics/ayiverse.png'
 import IMG3 from '../../assets/statics/portfolio.png'
+
 
 const Projects = () => {
   return (
+
    <section id='projects'>
     <h5>My Recent Work</h5>
     <h2>Projects</h2>
@@ -31,6 +32,7 @@ const Projects = () => {
       </article>
     </div>
    </section>
+
   )
 }
 

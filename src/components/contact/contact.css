@@ -46,4 +46,10 @@ input, textarea {
     .contact__button{
       width: 100%;
     }
+
+    /*ANIMATION*/
+  .animate__animated.animate__fadeInUp{
+        animation: none;
+        transition: none;
+  }
   }

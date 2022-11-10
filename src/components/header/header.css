@@ -86,7 +86,6 @@ header{
     width: 16rem;
     height: 18rem;
     left: calc(50% - 7.5rem);
-    
 } 
 
 }
@@ -113,5 +112,11 @@ header{
      header{
         height: 100vh;
         overflow: visible;
+    }
+    
+    /*ANIMATION*/
+    .animate__animated.animate__fadeInRight {
+        animation: none;
+        transition: none;
     }
 }

@@ -120,4 +120,10 @@
 .about__content p{
     margin: 1.5rem 0;
 }
+
+/*ANIMATION*/
+.animate__animated.animate__fadeInRight {
+  animation: none;
+  transition: none;
+}
 }

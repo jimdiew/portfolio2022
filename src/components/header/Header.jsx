@@ -16,7 +16,7 @@ const Header = () => {
           <CTA />
           <HeaderSocials />
           <div className="me wow animate__fadeInRight animate__animated">
-            <img src={ME} alt="" />
+            <img src={ME} alt="Person blinking with a laptop in their hand" />
           </div>
 
           <a href='#contact' className='scroll__down'>Keep Scrolling</a>

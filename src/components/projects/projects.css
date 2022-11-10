@@ -54,4 +54,10 @@ transition: var(--transition);
     grid-template-columns: 1fr;
     gap: 1rem;
    }
+
+   /*ANIMATION*/
+   .animate__animated.animate__fadeInLeft {
+    animation: none;
+    transition: none;
+}
   }

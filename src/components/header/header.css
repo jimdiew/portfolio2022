@@ -68,6 +68,11 @@ header{
 
 }
 
+/*ANIMATION*/
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+  }
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media screen and (max-width: 1366px) {
 

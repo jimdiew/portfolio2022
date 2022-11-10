@@ -71,6 +71,11 @@
   font-weight: 500;
 }
 
+/*ANIMATION*/
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+
 /* MEDIA QUERIES (MEDIUM) */
 @media screen and (max-width: 1024px) {
   .about__container {

@@ -5,7 +5,6 @@ import {AiOutlineSetting} from 'react-icons/ai'
 import {IoLibraryOutline} from 'react-icons/io5'
 import {BiPaint} from 'react-icons/bi'
 
-
 const About = () => {
   return (
 
@@ -18,8 +17,8 @@ const About = () => {
             <img src={Me} alt="Illustration of desk setup with a monitor and a plant" />
           </div>
         </div>
-        <div className="about__content">
-          <div className="about__cards">
+        <div className="about__content ">
+          <div className="about__cards wow animate__animated animate__fadeInRight">
             <article className='about__card'>
               <AiOutlineSetting className='about__icon'/>
               <h5>Technologies</h5>

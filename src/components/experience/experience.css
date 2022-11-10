@@ -51,6 +51,11 @@
     font-weight: 400;
 }
 
+/*ANIMATION*/
+.animate__animated.animate__fadeInLeft.animate__fadeInRight{
+    --animate-duration: 1s;
+}
+
 /* MEDIA QUERIES (MEDIUM) */
 @media screen and (max-width: 1024px) {
    .experience__container {

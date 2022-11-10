@@ -15,7 +15,7 @@ const Header = () => {
           <h3 className="text-light">Frontend Developer</h3>
           <CTA />
           <HeaderSocials />
-          <div className="me">
+          <div className="me wow animate__fadeInRight animate__animated">
             <img src={ME} alt="" />
           </div>
 

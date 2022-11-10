@@ -10,7 +10,7 @@ const Experience = () => {
     <h5>Education and Work</h5>
     <h2>My Experience</h2>
     <div className="container experience__container">
-      <div className="experience__education">
+      <div className="experience__education wow animate__animated animate__fadeInLeft">
         <h3>Education</h3>
         <div className="experience__content">
           <article className='experience__details'>
@@ -20,7 +20,7 @@ const Experience = () => {
             <small  > | Oct 2019 to Nov 2021</small></div>
            
           </article>
-          <article className='experience__details'>
+          <article className='experience__details '>
             < BsCheckCircle className='experience__details-icon'/> 
             <div> <h4>Professional Front End Developer</h4>
             <small>@ UTN</small>
@@ -36,7 +36,7 @@ const Experience = () => {
           </article>
         </div>
       </div>
-      <div className="experience__work">
+      <div className="experience__work wow animate__animated animate__fadeInRight">
       <h3>Work</h3>
         <div className="experience__content">
           <article className='experience__details'>

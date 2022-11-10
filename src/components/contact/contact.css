@@ -23,6 +23,11 @@ input, textarea {
   color: var(--text-secondary);
 }
 
+/*ANIMATION*/
+.animate__animated.animate__fadeInUp{
+  --animate-duration: 1.5s;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media screen and (max-width: 1024px) {
   .container.contact__container{

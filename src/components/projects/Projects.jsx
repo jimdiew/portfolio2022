@@ -10,7 +10,7 @@ const Projects = () => {
    <section id='projects'>
     <h5>My Recent Work</h5>
     <h2>Projects</h2>
-    <div className="container projects__container">
+    <div className="container projects__container wow animate__animated animate__fadeInLeft">
       <article className='projects__item'>
         <div className="projects__item-image">
           <img src={IMG1} alt="Dino Google Game Landing Page" />

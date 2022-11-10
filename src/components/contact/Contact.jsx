@@ -23,7 +23,7 @@ const Contact = () => {
    <section id='contact'>
     <h5>Get in touch</h5>
     <h2>Contact me</h2>
-    <div className="container contact__container">
+    <div className="container contact__container wow animate__fadeInUp animate__animated">
       <form ref={form} onSubmit={sendEmail} >
         <input type="text" name='name' placeholder='Your Full Name' required />
         <input type="email" name='email' placeholder='Your Email' required />

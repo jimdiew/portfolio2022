@@ -34,6 +34,11 @@ transition: var(--transition);
     margin-bottom: 0.5rem;
 }
 
+/*ANIMATION*/
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
 /* MEDIA QUERIES (MEDIUM) */ 
 @media screen and (max-width: 1024px) {
    .projects__container{

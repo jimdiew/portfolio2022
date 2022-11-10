@@ -99,6 +99,10 @@
 
 /* MEDIA QUERIES (SMALL) */
 @media screen and (max-width: 600px) {
+  .about__me-image:hover {
+    transform: none;
+  }
+
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;

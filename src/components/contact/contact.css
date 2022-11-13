@@ -48,8 +48,8 @@ input, textarea {
     }
 
     /*ANIMATION*/
-  .animate__animated.animate__fadeInUp{
+  /* .animate__animated.animate__fadeInUp{
         animation: none;
         transition: none;
-  }
+  } */
   }

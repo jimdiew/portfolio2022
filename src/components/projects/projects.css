@@ -56,9 +56,9 @@ transition: var(--transition);
     gap: 1rem;
    }
 
-   /*ANIMATION*/
+   /* ANIMATION
    .animate__animated.animate__fadeInLeft {
     animation: none;
     transition: none;
-}
+} */
   }

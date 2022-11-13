@@ -85,7 +85,7 @@
     }
 
     /*ANIMATION*/
-    .animate__animated.animate__fadeInLeft.animate__fadeInRight{
+    /* .animate__animated.animate__fadeInLeft.animate__fadeInRight{
         animation: none;
         animation-duration: 0s;
         transition: none;
@@ -94,5 +94,5 @@
         --animate-duration: 0s;
         --animate-delay: 0s;
         transform: none !important;
-    }
+    } */
   }

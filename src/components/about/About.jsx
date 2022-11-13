@@ -17,8 +17,8 @@ const About = () => {
             <img src={Me} alt="Illustration of desk setup with a monitor and a plant" />
           </div>
         </div>
-        <div className="about__content ">
-          <div className="about__cards wow animate__animated animate__fadeInRight">
+        <div className="about__content wow animate__animated animate__fadeInRight">
+          <div className="about__cards">
             <article className='about__card'>
               <AiOutlineSetting className='about__icon'/>
               <h5>Technologies</h5>
@@ -39,7 +39,7 @@ const About = () => {
           Front end developer with experience in ReactJs, JavaScript, Bootstrap and MaterialUI. I'm in constant professional growth.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's chat</a>
+          <a href="#contact" className='btn btn-primary wow animate__animated animate__fadeInUp animate__delay-1s'>Let's chat</a>
         </div>
       </div>
     </section>

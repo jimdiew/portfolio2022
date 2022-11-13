@@ -10,8 +10,8 @@ const Projects = () => {
    <section id='projects'>
     <h5>My Recent Work</h5>
     <h2>Projects</h2>
-    <div className="container projects__container wow animate__animated animate__fadeInLeft">
-      <article className='projects__item'>
+    <div className="container projects__container">
+      <article className='projects__item wow animate__animated animate__slideInUp'>
         <div className="projects__item-image">
           <img src={IMG1} alt="Dino Google Game Landing Page" />
         </div>
@@ -21,7 +21,7 @@ const Projects = () => {
         <a href="https://dino-google-landing.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
        </div>
       </article>
-      <article className='projects__item'>
+      <article className='projects__item wow animate__animated animate__slideInUp animate__delay-1s'>
         <div className="projects__item-image">
           <img src={IMG3} alt="Portfolio Landing Page" />
         </div>

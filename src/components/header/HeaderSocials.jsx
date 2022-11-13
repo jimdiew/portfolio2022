@@ -1,7 +1,6 @@
 import React from 'react'
 import {AiFillLinkedin, AiFillGithub,AiFillInstagram} from 'react-icons/ai'
 
-
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>

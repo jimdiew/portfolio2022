@@ -36,6 +36,10 @@
     margin-right: auto;
 }
 
+.experience__work .experience__content{
+    row-gap: 1rem;
+}
+
 .experience__details{
     display: flex;
     gap:1rem;
@@ -49,6 +53,10 @@
 .experience__details small {
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+.experience__content li {
+    list-style: circle;
 }
 
 /*ANIMATION*/

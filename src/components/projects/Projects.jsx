@@ -38,7 +38,7 @@ const Projects = () => {
           <h3>Portfolio Landing Page</h3>
           <div className="projects__item-cta">
             <a
-              href="https://github.com/jimdiew/DinoGoogleLanding"
+              href="https://github.com/jimdiew/portfolio2022"
               className="btn btn-primary"
               target="_blank"
             >
